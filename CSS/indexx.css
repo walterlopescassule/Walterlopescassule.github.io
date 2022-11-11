@@ -1,0 +1,52 @@
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #34495e;
+        border-bottom: 10px solid #000;  
+        padding-bottom: 15px;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        width: 95px;
+        height: 95px;
+    }
+
+    nav{
+        text-align: right;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;    
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: "Fira Sans, Arial, Helvetico, Sans-Serif";
+        font-weight: 400;
+        text-decoration: none;
+        margin-right: 25px;  
+    }
+
+    a::before {
+        content: " ";
+        display: inline-block;
+        background-color: #908C8C;
+        height: 60px;;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        vertical-align: middle
+    }
+
+    #button {
+        display: inline-block;
+        background-color: #908C8C;
+        padding: 25px 20px; 
+        box-shadow: 5px 5px 0 #bdc3c7;
+        margin: 0;
+        transition: transform 150ms lcubic-bezier(.74,-0.32,0,1.78);
+    }
+
+    #button:hover {
+        transform: scale(1.05); 
+    }
