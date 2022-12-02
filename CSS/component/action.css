@@ -1,0 +1,22 @@
+.action {
+    display: inline-flex;
+    align-items: center;    
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Fira Sans semiBold";
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 25px;
+      
+}
+
+.action::before {
+    content: " ";
+    display: inline-block;
+    background-color: #908C8C;
+    height: 60px;;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle
+}
